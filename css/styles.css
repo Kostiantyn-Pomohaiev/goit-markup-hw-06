@@ -39,9 +39,9 @@ a {
 }
 
 .container {
-    max-width: 1158px;
-    
-    padding: 0 15px;
+    max-width: 320px;   
+    padding-left: 16px;
+    padding-right: 16px;
     margin: 0 auto;
 }
 
@@ -254,12 +254,14 @@ a {
 
 .ares-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    /* gap: 24px; */
+    gap: 72px; 
     justify-content: center;
 }
 
 .ares-list-item {
-    width: calc((100% - 72px) / 4)
+    /* width: calc((100% - 72px) / 4) */
 }
 
 .ares-item-border {
