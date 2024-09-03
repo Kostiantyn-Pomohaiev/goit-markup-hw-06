@@ -196,9 +196,13 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;       
-    padding-left: 472px;
+    /* padding-left: 472px;
     padding-right: 472px;
-    padding: 188px 0;
+    padding: 188px 0; */
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     max-width: 1440px;
 }
 
@@ -209,7 +213,8 @@ a {
 .title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 56px;
+    /* font-size: 56px; */
+    font-size: 36px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
@@ -316,17 +321,17 @@ a {
 }
 
 .ul-team {
-    /* display: flex; */
+    display: flex;
     flex: wrap;
     /* gap: 24px; */
-    gap: 72px;
+    /* gap: 72px; */
     justify-content: center;
 }
 
 .li-team {
     background-color: #FFFFFF;
     /* width: calc((100% - 72px) / 4); */
-    /* width: 100%; */
+    width: 100%;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -924,7 +929,7 @@ a {
     }
 
     .ul-team {
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .li-team {
@@ -943,6 +948,17 @@ a {
 
     .portfolio-item {
         width: calc((100% - 24px) / 2);
+    }
+
+    .hero {
+        padding-left: 136px;
+        padding-right: 136px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .title {
+        font-size: 56px;
     }
 
 
@@ -1005,6 +1021,17 @@ a {
 
     .portfolio-item {
         width: calc((100% - 24px) / 3);
+    }
+
+    .hero {
+        padding-left: 472px;
+        padding-right: 472px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
+    .title {
+        font-size: 56px;
     }
 
 }
