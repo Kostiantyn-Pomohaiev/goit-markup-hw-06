@@ -18,6 +18,8 @@ h1,h2,h3,h4,h5,h6,p {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 a {
@@ -893,6 +895,10 @@ a {
         max-width: 768px;
         padding-left: 16px;
         padding-right: 16px;
+    }
+
+    .team > .container {
+        max-width: 584px;
     }
     
     .ares {
