@@ -50,6 +50,13 @@ a {
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.menu-open-btn {
+    background-color: transparent;
+    border: none;
 }
 
 .header-container{
@@ -81,10 +88,12 @@ a {
     color: #2e2f42;
 }
 
+
 .menu {
     display: flex;
     gap: 40px;
     align-items: center;
+    display: none;
 }
 
 .menu-item {
@@ -140,6 +149,7 @@ a {
 .address { 
     font-style: normal;
     margin-left: auto;
+    display: none;
 }
 
 .address-list {
@@ -534,9 +544,6 @@ a {
     width: 264px;
 }
 
-.team-icon-ul {
-    gap: 16px;
-}
 
 .footer-container- {
     display: flex;
