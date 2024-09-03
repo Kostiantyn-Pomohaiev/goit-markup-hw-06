@@ -318,7 +318,7 @@ a {
     flex: wrap;
     /* gap: 24px; */
     gap: 72px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .li-team {
