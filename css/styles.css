@@ -908,6 +908,19 @@ a {
         gap: 24px; 
     }
 
+    .team {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .ul-team {
+        gap: 24px;
+    }
+
+    .li-team {
+        width: calc((100% - 24px) / 2);
+    }
+
 
 }
 
@@ -938,6 +951,19 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .ul-team {
+        gap: 72px;
+    }
+
+    .li-team {
+        width: calc((100% - 72px) / 4);
     }
 
 }
