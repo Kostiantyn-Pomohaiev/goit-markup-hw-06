@@ -1123,6 +1123,12 @@ a {
         font-size: 56px;
     }
 
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+    
+    }
+
 }
 
 
