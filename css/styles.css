@@ -1028,6 +1028,16 @@ a {
         font-size: 56px;
     }
 
+    .footer-container {
+        /* display: flex;
+        align-items: baseline; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    
+    }
+
 
 }
 
